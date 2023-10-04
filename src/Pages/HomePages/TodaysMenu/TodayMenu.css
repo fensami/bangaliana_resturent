@@ -1,0 +1,103 @@
+/* .todayImg {
+  background-image: url('https://i.pinimg.com/736x/56/bb/4e/56bb4ed61ef4b22ebf87c2ea4d618152.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 100%;
+  /* background-position: center; */
+  /* margin-top: 68px; */
+/* } */
+
+/* h1{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);} */
+
+.card {
+  position: relative;
+  height: 500px;
+  margin: 30px 0 30px 0;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  /* padding: 30px 50px; */
+  cursor: pointer;
+  overflow: hidden;
+
+}
+
+
+
+
+.card .content-1 {
+  background: #E4D5C7;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  transition: 2s;
+  height: 150px;
+  opacity: 1;
+  /* z-index: 99; */
+  /* transform: translateY(100px); */
+}
+
+
+.card:hover .content-1 {
+  /* display: none; */
+  opacity: 0;
+  /* transform: translateY(500); */
+  transition: 3s;
+  /* z-index: 99; */
+
+}
+
+
+
+
+
+.card:hover .content {
+  opacity: 1;
+  transform: translateY(-3px);
+  transition: 3s;
+  /* transform: translateY(100px); */
+
+}
+
+
+.content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(100px);
+  /* background: black; */
+  /* opacity: .3; */
+  /* color: white; */
+  font-size: larger;
+  opacity: 0;
+  transition: 3s;
+  /* z-index: 99; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.transition-slow {
+  transition-property: all;
+  transition-duration: 5s;
+  /* Adjust the duration as needed */
+  transition-timing-function: ease-in-out;
+  /* Adjust the timing function as needed */
+}
