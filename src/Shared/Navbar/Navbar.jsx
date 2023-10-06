@@ -37,7 +37,7 @@ const Navbar = () => {
 
 {
   links.map((link) => (
-    <Link className="ml-5" key={link} href={link.linked}>{link.name}</Link>
+    <Link className="ml-5" key={link} to={link.linked}>{link.name}</Link>
   ))
 }
 {/* <Link>Home</Link>
