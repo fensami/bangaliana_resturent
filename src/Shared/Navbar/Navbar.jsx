@@ -26,7 +26,7 @@ const Navbar = () => {
   // },[])
   // bg-[#a5234a]
   return (
-    <div className="shadow-lg w-full fixed top-0 left-0 z-10   bg-[#247158] text-white">
+    <div className="shadow-lg w-full fixed top-0 left-0 z-10 bg-opacity-20 bg-black text-white">
       <div className="flex justify-between items-center py-4 md:px-10 px-7">
         {/* <p className="text-3xl font-bold"> Bangaliana</p> */}
         <img className='w-12 h-12' src="/src/assets/navLogo.png" alt="" />

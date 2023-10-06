@@ -6,7 +6,7 @@ const SpecialMenu = () => {
 
       <div className="grid md:grid-cols-4 grid-cols-1 gap-4 px-2 md:px-10 my-5">
 
-        <article className="hover:border-2 speical_spin hover:border-[#E4D5C7] border border-[#E4D5C7] rounded-lg py-5 md:w-72 drop-shadow-xl bg-[#186049] text-slate-100">
+        <article className="speical_spin  border-black rounded-lg py-5 md:w-72 drop-shadow-xl bg-gradient-to-t from-[#529661] to-[#248a69] text-slate-50">
 
           <div className='background_b'>
 
@@ -18,13 +18,13 @@ const SpecialMenu = () => {
           <p className="font-semibold mt-4 ">Lorem ipsum dolor sit amet consectetur adipisicing</p>
           <p className="my-4 text-3xl font-semibold ">$55.00</p>
 
-          <button className="bg-black px-4 text-xl font-bold text-white py-2 shadow-black shadow-sm rounded-lg">Add To Cart</button>
+          <button className="bg-white px-4 text-xl font-bold rounded-lg py-2 shadow-black text-black shadow-sm">Add To Cart</button>
 
           </div>
           </div>
         </article>
 
-        <article className="hover:border-2 speical_spin border rounded-lg py-5 md:w-72 drop-shadow-xl bg-[#186049] text-slate-100">
+        <article className="hover:border-2 speical_spin border rounded-lg py-5 md:w-72 drop-shadow-xl bg-gradient-to-t from-[#529661] text-slate-50 to-[#248a69]">
 
           <div className='background_b'>
 
@@ -36,11 +36,13 @@ const SpecialMenu = () => {
           <p className="font-semibold mt-4  px-2">Bangladeshi biriyani is a flavorful and aromatic rice dish</p>
           <p className="my-4 text-3xl font-semibold ">$50.00</p>
 
-          <button className="bg-black px-4 text-xl font-bold rounded-lg text-white py-2 shadow-black shadow-sm">Add To Cart</button>
+          <button className="bg-white px-4 text-xl font-bold rounded-lg py-2 shadow-black text-black shadow-sm">Add To Cart</button>
           </div>
           </div>
         </article>
-        <article className="hover:border-2 border speical_spin rounded-lg py-5 md:w-72 drop-shadow-xl bg-[#186049] text-slate-100">
+
+
+        <article className="hover:border-2 border speical_spin rounded-lg py-5 md:w-72 drop-shadow-xl bg-gradient-to-t from-[#529661] to-[#248a69] text-slate-50">
 
           <div className='background_b'>
 
@@ -52,11 +54,16 @@ const SpecialMenu = () => {
           <p className="font-semibold mt-4 ">Lorem ipsum dolor sit amet consectetur adipisicing</p>
           <p className="my-4 text-3xl font-semibold ">$45.00</p>
 
-          <button className="bg-black px-4 text-xl font-bold rounded-lg py-2 shadow-black shadow-sm">Add To Cart</button>
+          <button className="bg-white px-4 text-xl font-bold rounded-lg py-2 shadow-black text-black shadow-sm">Add To Cart</button>
           </div>
           </div>
         </article>
-        <article className="speical_spin  rounded-lg py-5 md:w-72 drop-shadow-xl bg-[#186049] text-slate-100">
+
+
+
+
+
+        <article className="speical_spin  rounded-lg py-5 md:w-72 drop-shadow-xl bg-[#248a69] text-slate-100 bg-gradient-to-t from-[#529661] to-[#248a69]">
 
           <div className='background_b'>
 
@@ -68,7 +75,7 @@ const SpecialMenu = () => {
           <p className="font-semibold mt-4 ">Lorem ipsum dolor sit amet consectetur adipisicing</p>
           <p className="my-4 text-3xl font-semibold ">$55.00</p>
 
-          <button className="bg-black px-4 text-xl font-bold rounded-lg py-2 shadow-black shadow-sm">Add To Cart</button>
+          <button className="bg-white px-4 text-xl font-bold rounded-lg py-2 shadow-black text-black shadow-sm">Add To Cart</button>
           </div>
           </div>
         </article>
