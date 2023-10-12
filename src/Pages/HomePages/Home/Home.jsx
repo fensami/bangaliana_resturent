@@ -18,9 +18,6 @@ const Home = () => {
       <MasterChefs></MasterChefs>
       <FromOurMenu></FromOurMenu>
       <NewsBlog></NewsBlog>
-
-    
-      
     </div>
   );
 };

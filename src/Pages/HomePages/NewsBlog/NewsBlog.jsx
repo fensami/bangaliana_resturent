@@ -1,12 +1,11 @@
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 import { EffectCube, Pagination } from "swiper/modules";
 import { LuCalendarDays } from "react-icons/lu";
 import { useEffect, useState } from "react";
+import Title from "../../../utils/Title";
 const NewsBlog = () => {
   const [Blogs, setBlogs] = useState([]);
   useEffect(() => {
@@ -16,10 +15,10 @@ const NewsBlog = () => {
   }, []);
   return (
     <>
-      <h1 className="alltext-shadow text-4xl md:text-5xl font-bold text-center mb-5 mt-10">
-        {" "}
-        News & Blogs
-      </h1>
+  
+      <Title title=" News & Blogs"></Title>
+
+
 
       <Swiper
         effect={"cube"}
@@ -37,11 +36,7 @@ const NewsBlog = () => {
         {Blogs.map((Blog, index) => (
           <SwiperSlide key={index}>
             <article className=" shadow-md shadow-emerald-600 border-green-600 my-10 h-96 md:mx-40  md:flex gap-5 justify-center items-center  rounded-lg">
-              <img
-                src={Blog.image}
-                className="rounded-s-lg w-96"
-                alt=""
-              />
+              <img src={Blog.image} className="rounded-s-lg w-96" alt="" />
 
               <div className="px-5 py-3">
                 <div className="py-3 font-bold text-lg flex gap-5 items-center">

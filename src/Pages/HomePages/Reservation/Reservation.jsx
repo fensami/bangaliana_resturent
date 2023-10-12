@@ -52,6 +52,7 @@ const Reservation = () => {
                 </div>
               <hr className="border" />
             </article>
+            
             <article className="px-5 md:mt-10">
               <div className='flex gap-5 mb-3'>
 <MdOutlinePeopleAlt className='text-4xl'></MdOutlinePeopleAlt>
