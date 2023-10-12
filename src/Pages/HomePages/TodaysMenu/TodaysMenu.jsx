@@ -2,6 +2,7 @@ import './TodayMenu.css'
 import lips from '../../../assets/lips.png'
 
 import { BsFillCartFill } from 'react-icons/bs';
+import Title from '../../../utils/Title';
 
 const TodaysMenu = () => {
   // const shadowStyle = {
@@ -12,9 +13,11 @@ const TodaysMenu = () => {
     <div className='bg-slate-100'>
       <img src={lips} className='absolute right-0 md:block hidden' alt="" />
       <img src={lips} className='absolute md:block hidden' alt="" />
-      <h1 className="pt-10 shadow text-center text-5xl font-bold text-[#186049]" >Todays Menu</h1>
+      {/* <h1 className="pt-10 alltext-shadow text-center md:text-5xl font-bold text-[#028a3a] text-4xl" >Todays Menu</h1> */}
 
-      <div className='grid mt-20 gap-5 grid-cols-1 md:grid-cols-4 md:mx-10'>
+      <Title title="Todays Menu"></Title>
+
+      <div className='grid md:mt-20 gap-5 grid-cols-1 md:grid-cols-4 md:mx-10'>
 
 
 

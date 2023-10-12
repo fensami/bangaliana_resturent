@@ -13,6 +13,9 @@ const Toggle = () => {
      name: "Blogs", linked: '/blogs' , id: '3'
     },
     {
+      name: "Menu", linked: 'menu', id: '4'
+    },
+    {
       name: "Contact Us", linked: 'contactus', id: '2'
     }
   ]
@@ -34,11 +37,11 @@ const Toggle = () => {
 
 
       {isOpen && (
-        <div className="absolute bg-[#45871B]  h-56 w-40 rounded-md px-3 py-5 top-20 right-2">
+        <div className="absolute bg-[#239974] bg-gradient-to-t from-[#307e41] to-[#248a69]  h-56 w-40 rounded-md px-3 py-5 top-16 right-0.5">
           <ul className="grid grid-cols-1">
           {
             links.map((link) => (
-              <Link key={link} href={link.linked}>{link.name}</Link>
+              <Link key={link} to={link.linked}>{link.name}</Link>
             ))
           }
 

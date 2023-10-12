@@ -1,0 +1,44 @@
+[
+  {
+    "id": 5,
+    "name": "Macher Kari",
+    "price": 320,
+    "image": "https://www.orangewayfarer.com/wp-content/uploads/2020/06/00100dPORTRAIT_00100_BURST20200614063110160_COVER-01.jpg",
+    "title": "Delicious Macher Kari"
+  },
+  {
+    "id": 6,
+    "name": "Shahi Biryani",
+    "price": 180,
+    "image": "https://images.deliveryhero.io/image/fd-bd/LH/eyun-hero.jpg",
+    "title": "Scrumptious Shahi Biryani"
+  },
+  {
+    "id": 7,
+    "name": "Alu Dom",
+    "price": 75,
+    "image": "https://vegecravings.com/wp-content/uploads/2018/04/Dum-Aloo-Recipe-Step-By-Step-Instructions.jpg",
+    "title": "Tasty Alu Dom"
+  },
+  {
+    "id": 8,
+    "name": "Chicken Tikka Masala",
+    "price": 200,
+    "image": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+    "title": "Savory Chicken Tikka Masala"
+  },
+  {
+    "id": 9,
+    "name": "Roshogolla",
+    "price": 280,
+    "image": "https://easyindiancookbook.com/wp-content/uploads/2022/09/rasgulla-recipe-9.jpg",
+    "title": "Sweet Roshogolla"
+  },
+  {
+    "id": 10,
+    "name": "Bengali Fish Samosa",
+    "price": 210,
+    "image": "https://www.getbengal.com/uploads/story_image/Singara-History.jpg",
+    "title": "Crunchy Bengali Fish Samosa"
+  }
+]

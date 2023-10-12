@@ -26,7 +26,7 @@ const FromOurMenu = () => {
 
   return (
     <>
-    <h1 className='text-5xl font-bold text-center text-[#186049] mt-36'>From Our Menu</h1>
+    <h1 className='text-4xl md:text-5xl alltext-shadow font-bold text-center text-[#186049] mt-36'>From Our Menu</h1>
  <Swiper
       effect={'coverflow'}
       grabCursor={true}

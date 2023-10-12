@@ -1,0 +1,29 @@
+[
+    {
+      "name": "John Doe",
+      "chef_status": "junior chef",
+      "image_url": "https://swigo.w3itexpert.com/xhtml/assets/images/team/pic3.jpg"
+    },
+    {
+      "name": "Jane Smith",
+      "chef_status": "senior chef",
+      "image_url": "https://swigo.w3itexpert.com/xhtml/assets/images/team/pic4.jpg"
+    },
+    {
+      "name": "Michael Johnson",
+      "chef_status": "junior chef",
+      "image_url": "https://swigo.w3itexpert.com/xhtml/assets/images/team/pic1.jpg"
+    },
+    {
+      "name": "Emily Brown",
+      "chef_status": "senior chef",
+      "image_url": "https://swigo.w3itexpert.com/xhtml/assets/images/team/pic2.jpg"
+    },
+    {
+      "name": "William Davis",
+      "chef_status": "junior chef",
+      "image_url": "https://swigo.w3itexpert.com/xhtml/assets/images/team/pic2.jpg"
+    }
+    
+  ]
+

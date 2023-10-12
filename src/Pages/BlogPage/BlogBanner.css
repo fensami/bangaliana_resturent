@@ -1,0 +1,12 @@
+.blogBanner{
+  background: url('https://saastastebuds.files.wordpress.com/2012/02/turmeric4.jpg');
+  position: sticky;
+  /* overflow: hidden; */
+  /* z-index: initial; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  /* object-fit: cover; */
+  background-position: center;
+}

@@ -5,3 +5,14 @@
 *{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+
+.active{
+  color: chartreuse;
+}
+.NavLink {
+  margin-left: 10;
+}
+
+
+.alltext-shadow{
+  text-shadow: 2px 2px 4px rgba(13, 196, 89, 0.4);}

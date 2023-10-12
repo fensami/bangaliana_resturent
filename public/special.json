@@ -1,0 +1,30 @@
+[
+  {
+  "id": 1,
+  "name": "Hilsa Fish Curry",
+  "price": 55.00,
+  "image": "https://kitchenofdebjani.com/wp-content/uploads/2023/04/Bengali-Doi-Ilish-Recipe-Debjanir-Rannaghar.jpg",
+  "title": "স্বাদের চিংড়ি মালাইকারি"
+},
+  {
+  "id": 2,
+  "name": "Biryani",
+  "price": 55.00,
+  "image": "https://t3.ftcdn.net/jpg/04/76/18/00/360_F_476180077_VNxoOxDZdZgpsajHpXwfiHYgmrOxfrmy.jpg",
+  "title": "স্বাদের চিংড়ি মালাইকারি"
+},
+  {
+  "id": 3,
+  "name": "Panta Ilish",
+  "price": 55.00,
+  "image": "https://as2.ftcdn.net/v2/jpg/05/29/63/11/1000_F_529631161_KJWCbr0QdY7bkm66GRLoPjTt1fQAJCAM.jpg",
+  "title": "স্বাদের চিংড়ি মালাইকারি"
+},
+  {
+  "id": 4,
+  "name": "Bhapa Pitha",
+  "price": 55.00,
+  "image": "https://i.ytimg.com/vi/mx0oDJhpRQk/mqdefault.jpg",
+  "title": "স্বাদের চিংড়ি মালাইকারি"
+}
+]
