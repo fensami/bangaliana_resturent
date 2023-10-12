@@ -4,7 +4,7 @@ import BlogCard from "./BlogCard";
 const Blogs = () => {
   return (
     <>
-      <div className="mt-16">
+      <div className="md:mt-16">
         <BlogBanner></BlogBanner>
       </div>
       <div className="grid gap-10 grid-cols-1 md:grid-cols-3 md:m-10 m-2">

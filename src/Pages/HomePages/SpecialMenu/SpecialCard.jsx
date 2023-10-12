@@ -12,7 +12,7 @@ const SpecialCard = () => {
       {specials.map((special, index) => (
         <article
           key={index}
-          className="speical_spin  rounded-lg py-5 md:w-80 drop-shadow-xl bg-[#239974] bg-gradient-to-t from-[#307e41] to-[#248a69] text-slate-100"
+          className="speical_spin mb-2 md:mb-0  rounded-lg py-5 md:w-80 drop-shadow-xl bg-[#239974] bg-gradient-to-t from-[#307e41] to-[#248a69] text-slate-100"
         >
           <div className="background_b">
             <div className="py-4">
